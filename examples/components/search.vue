@@ -169,7 +169,7 @@
 
     methods: {
       initIndex() {
-        const client = algoliasearch('4C63BTGP6S', '0729c3c7f4dc8db7395ad0b19c0748d2');
+        const client = algoliasearch('4Z0RW69HWT', '7060cbe5f7d8689fda63f02e96fa0209');
         this.index = client.initIndex(`element-${ this.lang ? this.langs[this.lang].index : 'zh' }`);
       },
 
