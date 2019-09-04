@@ -52,10 +52,10 @@
 </template>
 
 <script>
-  import ElCheckboxGroup from 'element-ui/packages/checkbox-group';
-  import ElCheckbox from 'element-ui/packages/checkbox';
-  import ElInput from 'element-ui/packages/input';
-  import Locale from 'element-ui/src/mixins/locale';
+  import ElCheckboxGroup from 'spaas-ui/packages/checkbox-group';
+  import ElCheckbox from 'spaas-ui/packages/checkbox';
+  import ElInput from 'spaas-ui/packages/input';
+  import Locale from 'spaas-ui/src/mixins/locale';
 
   export default {
     mixins: [Locale],
