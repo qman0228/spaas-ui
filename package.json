@@ -1,6 +1,6 @@
 {
-  "name": "@spaas/spaas-ui",
-  "version": "2.12.2-0",
+  "name": "spaas-ui",
+  "version": "2.12.0",
   "description": "Fork from elementUI",
   "main": "lib/element-ui.common.js",
   "files": [
