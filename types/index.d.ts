@@ -1,4 +1,4 @@
-export * from './element-ui'
+export * from './spaas-ui'
 
-import * as ElementUI from './element-ui'
+import * as ElementUI from './spaas-ui'
 export default ElementUI

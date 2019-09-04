@@ -81,8 +81,8 @@ import PageHeader from '../packages/page-header/index.js';
 import CascaderPanel from '../packages/cascader-panel/index.js';
 import Avatar from '../packages/avatar/index.js';
 import Drawer from '../packages/drawer/index.js';
-import locale from 'element-ui/src/locale';
-import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
+import locale from 'spaas-ui/src/locale';
+import CollapseTransition from 'spaas-ui/src/transitions/collapse-transition';
 
 const components = [
   Pagination,
@@ -196,7 +196,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  version: '2.12.2-0',
+  version: '2.12.1-0',
   locale: locale.use,
   i18n: locale.i18n,
   install,

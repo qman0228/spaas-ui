@@ -44,8 +44,8 @@ if [ "$TRAVIS_TAG" ]; then
   mkdir -p $SUB_FOLDER
   rm -rf *.js *.css *.map static
   rm -rf $SUB_FOLDER/**
-  cp -rf ../../examples/element-ui/** .
-  cp -rf ../../examples/element-ui/** $SUB_FOLDER/
+  cp -rf ../../examples/spaas-ui/** .
+  cp -rf ../../examples/spaas-ui/** $SUB_FOLDER/
   git add -A .
   git commit -m "$TRAVIS_COMMIT_MSG"
   git push origin gh-pages
@@ -61,7 +61,7 @@ fi
 # git clone https://$ROT_TOKEN@github.com/ElementUI/dev.git && cd dev
 # mkdir $TRAVIS_BRANCH
 # rm -rf $TRAVIS_BRANCH/**
-# cp -rf ../../examples/element-ui/** $TRAVIS_BRANCH/
+# cp -rf ../../examples/spaas-ui/** $TRAVIS_BRANCH/
 # git add -A .
 # git commit -m "$TRAVIS_COMMIT_MSG"
 # git push origin master
