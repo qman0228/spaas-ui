@@ -10,7 +10,6 @@ version=$(sed -n 8p $resp_tmp_file | sed 's/\"tag_name\"://g' | awk -F '"' '{pri
 
 msg='{"msgtype": "markdown", "markdown": {"title": "spaas-ui更新至'$version'", "text": "@所有人\n# [spaas-ui '$version']('$html_url')\n'$body'"}}'
 
-echo $version
-# curl -X POST https://oapi.dingtalk.com/robot/send\?access_token=$DINGTALK_ROBOT_TOKEN -H 'Content-Type: application/json' -d "$msg"
+curl -X POST https://oapi.dingtalk.com/robot/send\?access_token=$DINGTALK_ROBOT_TOKEN -H 'Content-Type: application/json' -d "$msg"
 
 rm $resp_tmp_file
