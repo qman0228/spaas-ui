@@ -1,8 +1,7 @@
 
 # 设置全局变量
-chmod 777 *.sh
-./build/env.sh
-
+chmod 777 ./build/*.sh
+source ./build/env.sh
 # git-release
 GREN_GITHUB_TOKEN=$GITHUB_TOKEN
 gren release --override
