@@ -43,6 +43,6 @@ then
   then
     npm publish --tag beta
   else
-    npm publish
+    npm publish --registry=http://localhost:7001
   fi
 fi
