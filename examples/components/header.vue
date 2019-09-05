@@ -478,7 +478,7 @@
           }, {});
         }
       };
-      xhr.open('GET', '/versions.json');
+      xhr.open('GET', './versions.json');
       xhr.send();
       let primaryLast = '#409EFF';
       bus.$on(ACTION_USER_CONFIG_UPDATE, (val) => {
