@@ -41,8 +41,8 @@ then
 
   if [[ $VERSION =~ "beta" ]]
   then
-    npm publish --tag beta
+    npm publish --registry=$NPM_REGISTRY --tag beta
   else
-    npm publish --registry=http://localhost:7001
+    npm publish --registry=$NPM_REGISTRY
   fi
 fi
