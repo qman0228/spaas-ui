@@ -16,7 +16,7 @@ $--color-transition-base: color .2s cubic-bezier(.645,.045,.355,1) !default;
 /* Color
 -------------------------- */
 /// color|1|Brand Color|0
-$--color-primary: #409EFF !default;
+$--color-primary: #5D81F9 !default; // 409EFF
 /// color|1|Background Color|4
 $--color-white: #FFFFFF !default;
 /// color|1|Background Color|4
@@ -31,13 +31,13 @@ $--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; /
 $--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; /* d9ecff */
 $--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
 /// color|1|Functional Color|1
-$--color-success: #67C23A !default;
+$--color-success: #02C5E2 !default; // 67C23A
 /// color|1|Functional Color|1
-$--color-warning: #E6A23C !default;
+$--color-warning: #F5A623 !default; // E6A23C
 /// color|1|Functional Color|1
-$--color-danger: #F56C6C !default;
+$--color-danger: #E24156 !default; // F56C6C
 /// color|1|Functional Color|1
-$--color-info: #909399 !default;
+$--color-info: #6A6E7B !default; // 909399
 
 $--color-success-light: mix($--color-white, $--color-success, 80%) !default;
 $--color-warning-light: mix($--color-white, $--color-warning, 80%) !default;
@@ -49,17 +49,17 @@ $--color-warning-lighter: mix($--color-white, $--color-warning, 90%) !default;
 $--color-danger-lighter: mix($--color-white, $--color-danger, 90%) !default;
 $--color-info-lighter: mix($--color-white, $--color-info, 90%) !default;
 /// color|1|Font Color|2
-$--color-text-primary: #303133 !default;
+$--color-text-primary: #2D303B !default; // 303133
 /// color|1|Font Color|2
-$--color-text-regular: #606266 !default;
+$--color-text-regular: #2D303B !default; // 606266
 /// color|1|Font Color|2
-$--color-text-secondary: #909399 !default;
+$--color-text-secondary: #93959b !default; // 909399
 /// color|1|Font Color|2
-$--color-text-placeholder: #C0C4CC !default;
+$--color-text-placeholder: #9CA6C7 !default; // C0C4CC
 /// color|1|Border Color|3
-$--border-color-base: #DCDFE6 !default;
+$--border-color-base: #CAD1E8 !default; // DCDFE6
 /// color|1|Border Color|3
-$--border-color-light: #E4E7ED !default;
+$--border-color-light: #CAD1E8 !default; // E4E7ED
 /// color|1|Border Color|3
 $--border-color-lighter: #EBEEF5 !default;
 /// color|1|Border Color|3
@@ -296,10 +296,10 @@ $--select-option-disabled-color: $--color-text-placeholder !default;
 $--select-option-disabled-background: $--color-white !default;
 /// height||Other|4
 $--select-option-height: 34px !default;
-$--select-option-hover-background: $--background-color-base !default;
+$--select-option-hover-background: #F7F8FE !default; // $--background-color-base
 /// color||Color|0
 $--select-option-selected-font-color: $--color-primary !default;
-$--select-option-selected-hover: $--background-color-base !default;
+$--select-option-selected-hover: #F7F8FE !default; // $--background-color-base
 
 $--select-group-color: $--color-info !default;
 $--select-group-height: 30px !default;
@@ -345,7 +345,7 @@ $--messagebox-title-color: $--color-text-primary !default;
 $--msgbox-width: 420px !default;
 $--msgbox-border-radius: 4px !default;
 /// fontSize||Font|1
-$--messagebox-font-size: $--font-size-large !default;
+$--messagebox-font-size: 16px !default; // $--font-size-large
 /// fontSize||Font|1
 $--messagebox-content-font-size: $--font-size-base !default;
 /// color||Color|0
@@ -614,7 +614,7 @@ $--switch-button-size: 16px !default;
 
 /* Dialog
 -------------------------- */
-$--dialog-background-color: $--color-white !default;
+$--dialog-background-color: $--color-primary-light-4 !default; // $--color-white
 $--dialog-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !default;
 /// fontSize||Font|1
 $--dialog-title-font-size: $--font-size-large !default;
@@ -635,7 +635,7 @@ $--table-font-color: $--color-text-regular !default;
 /// color||Color|0
 $--table-header-font-color: $--color-text-secondary !default;
 /// color||Color|0
-$--table-row-hover-background-color: $--background-color-base !default;
+$--table-row-hover-background-color: #f6f8fb !default; // $--background-color-base
 $--table-current-row-background-color: $--color-primary-light-9 !default;
 /// color||Color|0
 $--table-header-background-color: $--color-white !default;
@@ -721,11 +721,11 @@ $--tag-padding: 0 10px !default;
 /* Tree
 -------------------------- */
 /// color||Color|0
-$--tree-node-hover-background-color: $--background-color-base !default;
+$--tree-node-hover-background-color: #f6f8fb !default; // $--background-color-base
 /// color||Color|0
 $--tree-font-color: $--color-text-regular !default;
 /// color||Color|0
-$--tree-expand-icon-color: $--color-text-placeholder !default;
+$--tree-expand-icon-color: #9CA6C7 !default; // $--color-text-placeholder
 
 /* Dropdown
 -------------------------- */

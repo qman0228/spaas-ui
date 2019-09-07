@@ -91,7 +91,7 @@
   vertical-align: top;
 }
 .content-tip {
-  color: #909399;
+  color: #6A6E7B;
   font-size: 12px;
 }
 .config-content {
