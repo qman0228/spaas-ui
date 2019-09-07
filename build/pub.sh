@@ -10,5 +10,5 @@ source ./build/env.sh
 node build/bin/gen-indices.js
 
 # git-release
-GREN_GITHUB_TOKEN=$GITHUB_TOKEN
+GREN_GITHUB_TOKEN=$ROT_TOKEN
 gren release --override
