@@ -51,6 +51,8 @@ if [ "$TRAVIS_TAG" ]; then
   git push origin gh-pages
   cd ../..
 
+  # 通过钉钉进行通知
+  ./build/notify.sh
   echo "DONE, Bye~"
   exit 0
 fi
