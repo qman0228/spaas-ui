@@ -23,7 +23,7 @@ Pase el ratón por el menú desplegable para desplegarlo y obtener más acciones
 <style>
   .el-dropdown-link {
     cursor: pointer;
-    color: #409EFF;
+    color: #5D81F9;
   }
   .el-icon-arrow-down {
     font-size: 12px;
@@ -131,7 +131,7 @@ Haga clic en el elemento detonante o sobre él.
 <style>
   .el-dropdown-link {
     cursor: pointer;
-    color: #409EFF;
+    color: #5D81F9;
   }
   .el-icon-arrow-down {
     font-size: 12px;
@@ -169,7 +169,7 @@ Use `hide-on-click` para definir si el menú se cierra al hacer clic.
 <style>
   .el-dropdown-link {
     cursor: pointer;
-    color: #409EFF;
+    color: #5D81F9;
   }
   .el-icon-arrow-down {
     font-size: 12px;
@@ -200,7 +200,7 @@ Al hacer clic en cada elemento desplegable se detona un evento cuyo parámetro e
 <style>
   .el-dropdown-link {
     cursor: pointer;
-    color: #409EFF;
+    color: #5D81F9;
   }
   .el-icon-arrow-down {
     font-size: 12px;

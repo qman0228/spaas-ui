@@ -23,7 +23,7 @@
       width: 40%;
       margin: 0 auto;
       text-align: center;
-      color: #606266;
+      color: #2D303B;
       img {
         display: block;
         margin: 0 auto;
@@ -125,7 +125,7 @@
     .title {
       font-weight: bold;
       font-size: 16px;
-      color: #303133;
+      color: #2D303B;
       padding: 0 12px;
       justify-content: space-between;
     }
@@ -133,7 +133,7 @@
       float: right;
       font-weight: normal;
       font-size: 14px;
-      color: #909399;
+      color: #6A6E7B;
     }
     .more {
       font-size: 16px;
@@ -142,13 +142,13 @@
     .description {
       padding: 0 12px;
       font-size: 14px;
-      color: #606266;
+      color: #2D303B;
       margin-top: 10px;
     }
   }
   &.is-upload {
     box-shadow: none;
-    border: 1px dashed #DCDFE6;
+    border: 1px dashed #CAD1E8;
   }
   &.is-upload:hover {
     box-shadow: none;
@@ -226,7 +226,7 @@
                   <el-dropdown-item command="copy">{{getActionDisplayName('copy-theme')}}</el-dropdown-item>
                   <el-dropdown-item
                       command="delete"
-                      style="color: #F56C6C;"
+                      style="color: #E24156;"
                     >
                       {{getActionDisplayName('delete-theme')}}
                     </el-dropdown-item>
@@ -362,13 +362,13 @@ export default {
       return tintColor(this.mainColor, 0.8);
     },
     textPrimaryColor() {
-      return this.theme.global['$--color-text-primary'] || '#303133';
+      return this.theme.global['$--color-text-primary'] || '#2D303B';
     },
     borderBaseColor() {
-      return this.theme.global['$--border-color-base'] || '#DCDFE6';
+      return this.theme.global['$--border-color-base'] || '#CAD1E8';
     },
     textSecondaryColor() {
-      return this.theme.global['$--color-text-secondary'] || '#909399';
+      return this.theme.global['$--color-text-secondary'] || '#93959b';
     },
     isOfficial() {
       return this.type === 'official';

@@ -25,7 +25,7 @@
   import Element from 'main/index.js';
   const { version } = Element;
 
-  const ORIGINAL_THEME = '#409EFF';
+  const ORIGINAL_THEME = '#5D81F9';
   export default {
     data() {
       return {

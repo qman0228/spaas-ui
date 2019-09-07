@@ -249,8 +249,8 @@ Le menu vertical peut être réduit.
 | mode     | Mode d'affichage du menu.   | string  |   horizontal / vertical   | vertical |
 | collapse  | Si le menu peut être réduit, uniquement disponible en mode vertical. | boolean  |   —   | false |
 | background-color  | Couleur de fond du menu (format hexadécimal). | string |   —   | #ffffff |
-| text-color  | Couleur du texte du menu (format hexadécimal) | string |   —   | #303133 |
-| active-text-color  | Couleur du texte de l'item actif (format hexadécimal). | string |   —   | #409EFF |
+| text-color  | Couleur du texte du menu (format hexadécimal) | string |   —   | #2D303B |
+| active-text-color  | Couleur du texte de l'item actif (format hexadécimal). | string |   —   | #5D81F9 |
 | default-active | Index du menu actif. | string    | — | — |
 | default-openeds | Liste contenant les index les sous-menus actifs.  | Array    | — | — |
 | unique-opened  | Si un seul sous-menu peut être actif.  | boolean   | — | false   |
