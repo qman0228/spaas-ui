@@ -12,6 +12,3 @@ node build/bin/gen-indices.js
 # git-release
 GREN_GITHUB_TOKEN=$GITHUB_TOKEN
 gren release --override
-
-# 通过订单进行通知
-./build/notify.sh
