@@ -20,19 +20,19 @@
     'borderExtraLight': '$--border-color-extra-light'
   };
   const original = {
-    primary: '#409EFF',
-    success: '#67C23A',
-    warning: '#E6A23C',
-    danger: '#F56C6C',
-    info: '#909399',
+    primary: '#5D81F9',
+    success: '#02C5E2',
+    warning: '#F5A623',
+    danger: '#E24156',
+    info: '#6A6E7B',
     white: '#FFFFFF',
     black: '#000000',
-    textPrimary: '#303133',
-    textRegular: '#606266',
-    textSecondary: '#909399',
-    textPlaceholder: '#C0C4CC',
-    borderBase: '#DCDFE6',
-    borderLight: '#E4E7ED',
+    textPrimary: '#2D303B',
+    textRegular: '#2D303B',
+    textSecondary: '#93959b',
+    textPlaceholder: '#9CA6C7',
+    borderBase: '#CAD1E8',
+    borderLight: '#CAD1E8',
     borderLighter: '#EBEEF5',
     borderExtraLight: '#F2F6FC'
   }
@@ -100,7 +100,7 @@ La couleur principale d'Element est un bleu clair et agréable.
 <el-row :gutter="12">
   <el-col :span="10" :xs="{span: 12}">
     <div class="demo-color-box" :style="{ background: primary }">Couleur principale
-      <div class="value">#409EFF</div>
+      <div class="value">#5D81F9</div>
       <div class="bg-color-sub" :style="{ background: tintColor(primary, 0.9) }">
         <div
           class="bg-blue-sub-item"
@@ -120,7 +120,7 @@ En plus de la couleur principale, vous devrez sans doute utiliser d'autres coule
 <el-row :gutter="12">
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box" :style="{ background: success }">Succès
-      <div class="value">#67C23A</div>
+      <div class="value">#02C5E2</div>
       <div class="bg-color-sub">
         <div
           class="bg-success-sub-item"
@@ -133,7 +133,7 @@ En plus de la couleur principale, vous devrez sans doute utiliser d'autres coule
   </el-col>
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box" :style="{ background: warning }">Avertissement
-      <div class="value">#E6A23C</div>
+      <div class="value">#F5A623</div>
       <div class="bg-color-sub">
         <div
           class="bg-success-sub-item"
@@ -146,7 +146,7 @@ En plus de la couleur principale, vous devrez sans doute utiliser d'autres coule
   </el-col>
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box" :style="{ background: danger }">Danger
-      <div class="value">#F56C6C</div>
+      <div class="value">#E24156</div>
       <div class="bg-color-sub">
         <div
           class="bg-success-sub-item"
@@ -159,7 +159,7 @@ En plus de la couleur principale, vous devrez sans doute utiliser d'autres coule
   </el-col>
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box" :style="{ background: info }">Info
-      <div class="value">#909399</div>
+      <div class="value">#6A6E7B</div>
       <div class="bg-color-sub">
         <div
           class="bg-success-sub-item"
@@ -218,7 +218,7 @@ Les couleurs neutres sont les couleurs du fond, du texte et des bordures. Vous p
       >Noir<div class="value">{{black}}</div></div>
       <div
       class="demo-color-box demo-color-box-other"
-      :style="{ background: white, color: '#303133', border: '1px solid #eee' }"
+      :style="{ background: white, color: '#2D303B', border: '1px solid #eee' }"
       >Blanc<div class="value">{{white}}</div></div>
       <div class="demo-color-box demo-color-box-other bg-transparent">Transparent<div class="value">Transparent</div>
       </div>

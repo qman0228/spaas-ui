@@ -99,13 +99,13 @@
       border: none;
       font-size: 18px;
       padding-left: 0;
-      color: #606266;
+      color: #2D303B;
     }
   }
   .line {
     width: 100%;
     height: 0;
-    border-bottom: 1px solid #DCDFE6;
+    border-bottom: 1px solid #CAD1E8;
   }
 }
 </style>

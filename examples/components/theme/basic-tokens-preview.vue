@@ -115,7 +115,7 @@
         <el-col :span="4">
           <div
             class="demo-color-box demo-color-box-other"
-            :style="{ background: color_white, color: '#303133', border: '1px solid #eee' }"
+            :style="{ background: color_white, color: '#2D303B', border: '1px solid #eee' }"
           >
             Background W
             <div class="value">{{color_white}}</div>
@@ -174,19 +174,19 @@ import {
 } from './constant.js';
 
 const original = {
-  'color_primary': '#409EFF',
-  'color_success': '#67C23A',
-  'color_warning': '#E6A23C',
-  'color_danger': '#F56C6C',
-  'color_info': '#909399',
+  'color_primary': '#5D81F9',
+  'color_success': '#02C5E2',
+  'color_warning': '#F5A623',
+  'color_danger': '#E24156',
+  'color_info': '#6A6E7B',
   'color_white': '#FFFFFF',
   'color_black': '#000000',
-  'color_text_primary': '#303133',
-  'color_text_regular': '#606266',
-  'color_text_secondary': '#909399',
-  'color_text_placeholder': '#C0C4CC',
-  'border_color_base': '#DCDFE6',
-  'border_color_light': '#E4E7ED',
+  'color_text_primary': '#2D303B',
+  'color_text_regular': '#2D303B',
+  'color_text_secondary': '#6A6E7B',
+  'color_text_placeholder': '#9CA6C7',
+  'border_color_base': '#CAD1E8',
+  'border_color_light': '#CAD1E8',
   'border_color_lighter': '#EBEEF5',
   'border_color_extra_light': '#F2F6FC',
   'font_size_extra_large': '20px',
