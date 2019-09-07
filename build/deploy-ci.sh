@@ -40,7 +40,7 @@ if [ "$TRAVIS_TAG" ]; then
   # build sub folder
   echo $TRAVIS_TAG
 
-  SUB_FOLDER='2.12'
+  SUB_FOLDER=`echo $TRAVIS_TAG | sed 's/.*V\([0-9].[0-9]*\).*/\1/g'`
   mkdir -p $SUB_FOLDER
   rm -rf *.js *.css *.map static
   rm -rf $SUB_FOLDER/**
