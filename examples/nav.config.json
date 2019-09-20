@@ -293,6 +293,15 @@
               "title": "LrContainer 左右布局容器"
             }
           ]
+        },
+        {
+          "groupName": "Expand",
+          "list": [
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton 加载按钮"
+            }
+          ]
         }
       ]
     }
@@ -589,6 +598,15 @@
             {
               "path": "/lr-container",
               "title": "LrContainer"
+            }
+          ]
+        },
+        {
+          "groupName": "Expand",
+          "list": [
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton"
             }
           ]
         }
@@ -889,6 +907,15 @@
               "title": "LrContainer"
             }
           ]
+        },
+        {
+          "groupName": "Expand",
+          "list": [
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton"
+            }
+          ]
         }
       ]
     }
@@ -1185,6 +1212,10 @@
             {
               "path": "/lr-container",
               "title": "LrContainer"
+            },
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton"
             }
           ]
         }
