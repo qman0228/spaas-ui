@@ -79,6 +79,7 @@ import { ElInfiniteScroll } from './infinite-scroll'
 import { ElPageHeader } from './page-header'
 import { ElAvatar } from './avatar'
 import { ElDrawer } from './drawer'
+import { ElLrContainer } from './lr-container'
 import { ElLoadingButton } from './loading-button'
 
 export interface InstallationOptions {
