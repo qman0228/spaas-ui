@@ -2,14 +2,14 @@
   <div class="el-lr-container" >
     <div class="el-lr-container-aside">
       <el-scrollbar>
-        <div class="el-lr-container-aside-content">
+        <div class="el-lr-container-aside-content" ref="aside-content">
           <slot name="aside"></slot>
         </div>
       </el-scrollbar>
     </div>
     <div class="el-lr-container-main">
       <el-scrollbar>
-        <div class="el-lr-container-main-content">
+        <div class="el-lr-container-main-content" ref="main-content">
           <slot name="main"></slot>
         </div>
       </el-scrollbar>
@@ -30,7 +30,7 @@ export default {
     mainHeight: [String, Number]
   },
   mounted() {
-    this.$nextTick(()=> { this.setStyle(); });
+    this.setStyle();
   },
   methods: {
     parseHW(hw) {
@@ -58,15 +58,15 @@ export default {
       let value;
       if (this.asideWidth) {
         value = formatValue(this.parseHW(this.asideWidth));
-        document.querySelector('.el-lr-container-aside-content').style.width = value;
+        this.$refs['aside-content'].style.width = value;
       }
       if (this.asideHeight) {
         value = formatValue(this.parseHW(this.asideHeight));
-        document.querySelector('.el-lr-container-aside-content').style.height = value;
+        this.$refs['aside-content'].style.height = value;
       }
       if (this.mainHeight) {
         value = formatValue(this.parseHW(this.mainHeight));
-        document.querySelector('.el-lr-container-main-content').style.height = value;
+        this.$refs['main-content'].style.height = value;
       }
     }
   }
