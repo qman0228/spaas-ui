@@ -1,0 +1,12 @@
+@import "mixins/mixins";
+@import "common/var";
+
+@include b(lr-container) {
+  display: flex;
+  @include b(lr-container-main) {
+    flex: 1;
+  }
+  @include b(lr-container-aside-content) {
+    min-width: 80px;
+  }
+}
