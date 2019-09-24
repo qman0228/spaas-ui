@@ -287,6 +287,10 @@
             {
               "path": "/drawer",
               "title": "Drawer 抽屉"
+            },
+            {
+              "path": "/panel",
+              "title": "Panel 展示板"
             }
           ]
         }
@@ -581,6 +585,10 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            },
+            {
+              "path": "/panel",
+              "title": "Panel"
             }
           ]
         }
@@ -875,6 +883,10 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            },
+            {
+              "path": "/panel",
+              "title": "Panel"
             }
           ]
         }
@@ -1169,6 +1181,10 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            },
+            {
+              "path": "/panel",
+              "title": "Panel"
             }
           ]
         }
