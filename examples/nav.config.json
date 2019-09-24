@@ -291,6 +291,19 @@
             {
               "path": "/panel",
               "title": "Panel 展示板"
+            },
+            {
+              "path": "/lr-container",
+              "title": "LrContainer 左右布局容器"
+            }
+          ]
+        },
+        {
+          "groupName": "Expand",
+          "list": [
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton 加载按钮"
             }
           ]
         }
@@ -589,6 +602,19 @@
             {
               "path": "/panel",
               "title": "Panel"
+            },
+            {
+              "path": "/lr-container",
+              "title": "LrContainer"
+            }
+          ]
+        },
+        {
+          "groupName": "Expand",
+          "list": [
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton"
             }
           ]
         }
@@ -887,6 +913,19 @@
             {
               "path": "/panel",
               "title": "Panel"
+            },
+            {
+              "path": "/lr-container",
+              "title": "LrContainer"
+            }
+          ]
+        },
+        {
+          "groupName": "Expand",
+          "list": [
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton"
             }
           ]
         }
@@ -1185,6 +1224,14 @@
             {
               "path": "/panel",
               "title": "Panel"
+            },
+            {
+              "path": "/lr-container",
+              "title": "LrContainer"
+            },
+            {
+              "path": "/loading-button",
+              "title": "LoadingButton"
             }
           ]
         }
