@@ -304,6 +304,10 @@
             {
               "path": "/loading-button",
               "title": "LoadingButton 加载按钮"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper 数据映射"
             }
           ]
         }
@@ -615,6 +619,10 @@
             {
               "path": "/loading-button",
               "title": "LoadingButton"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper"
             }
           ]
         }
@@ -926,6 +934,10 @@
             {
               "path": "/loading-button",
               "title": "LoadingButton"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper"
             }
           ]
         }
@@ -1232,6 +1244,10 @@
             {
               "path": "/loading-button",
               "title": "LoadingButton"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper"
             }
           ]
         }

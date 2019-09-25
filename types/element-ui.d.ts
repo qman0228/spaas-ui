@@ -81,6 +81,7 @@ import { ElAvatar } from './avatar'
 import { ElDrawer } from './drawer'
 
 import { ElPanel } from './panel'
+import { ElDataMapper } from './data-mapper'
 
 export interface InstallationOptions {
   locale: any,
@@ -695,3 +696,6 @@ export class LrContainer extends ElLrContainer {}
 
 /** LoadingButton Component */
 export class LoadingButton extends ElLoadingButton {}
+
+/** DataMapper Component */
+export class DataMapper extends ElDataMapper {}

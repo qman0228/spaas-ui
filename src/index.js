@@ -84,6 +84,7 @@ import Drawer from '../packages/drawer/index.js';
 import Panel from '../packages/panel/index.js';
 import LrContainer from '../packages/lr-container/index.js';
 import LoadingButton from '../packages/loading-button/index.js';
+import DataMapper from '../packages/data-mapper/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -167,6 +168,7 @@ const components = [
   Panel,
   LrContainer,
   LoadingButton,
+  DataMapper,
   CollapseTransition
 ];
 
@@ -290,5 +292,6 @@ export default {
   Drawer,
   Panel,
   LrContainer,
-  LoadingButton
+  LoadingButton,
+  DataMapper
 };
