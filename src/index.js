@@ -81,8 +81,10 @@ import PageHeader from '../packages/page-header/index.js';
 import CascaderPanel from '../packages/cascader-panel/index.js';
 import Avatar from '../packages/avatar/index.js';
 import Drawer from '../packages/drawer/index.js';
+import Panel from '../packages/panel/index.js';
 import LrContainer from '../packages/lr-container/index.js';
 import LoadingButton from '../packages/loading-button/index.js';
+import DataMapper from '../packages/data-mapper/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -163,8 +165,10 @@ const components = [
   CascaderPanel,
   Avatar,
   Drawer,
+  Panel,
   LrContainer,
   LoadingButton,
+  DataMapper,
   CollapseTransition
 ];
 
@@ -286,6 +290,8 @@ export default {
   CascaderPanel,
   Avatar,
   Drawer,
+  Panel,
   LrContainer,
-  LoadingButton
+  LoadingButton,
+  DataMapper
 };

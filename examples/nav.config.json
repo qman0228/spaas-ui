@@ -289,6 +289,10 @@
               "title": "Drawer 抽屉"
             },
             {
+              "path": "/panel",
+              "title": "Panel 展示板"
+            },
+            {
               "path": "/lr-container",
               "title": "LrContainer 左右布局容器"
             }
@@ -300,6 +304,10 @@
             {
               "path": "/loading-button",
               "title": "LoadingButton 加载按钮"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper 数据映射"
             }
           ]
         }
@@ -596,6 +604,10 @@
               "title": "Drawer"
             },
             {
+              "path": "/panel",
+              "title": "Panel"
+            },
+            {
               "path": "/lr-container",
               "title": "LrContainer"
             }
@@ -607,6 +619,10 @@
             {
               "path": "/loading-button",
               "title": "LoadingButton"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper"
             }
           ]
         }
@@ -903,6 +919,10 @@
               "title": "Drawer"
             },
             {
+              "path": "/panel",
+              "title": "Panel"
+            },
+            {
               "path": "/lr-container",
               "title": "LrContainer"
             }
@@ -914,6 +934,10 @@
             {
               "path": "/loading-button",
               "title": "LoadingButton"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper"
             }
           ]
         }
@@ -1210,12 +1234,20 @@
               "title": "Drawer"
             },
             {
+              "path": "/panel",
+              "title": "Panel"
+            },
+            {
               "path": "/lr-container",
               "title": "LrContainer"
             },
             {
               "path": "/loading-button",
               "title": "LoadingButton"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper"
             }
           ]
         }

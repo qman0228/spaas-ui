@@ -80,6 +80,8 @@
   "cascader-panel": "./packages/cascader-panel/index.js",
   "avatar": "./packages/avatar/index.js",
   "drawer": "./packages/drawer/index.js",
+  "panel": "./packages/panel/index.js",
   "lr-container": "./packages/lr-container/index.js",
-  "loading-button": "./packages/loading-button/index.js"
+  "loading-button": "./packages/loading-button/index.js",
+  "data-mapper": "./packages/data-mapper/index.js"
 }
