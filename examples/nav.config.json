@@ -291,10 +291,6 @@
             {
               "path": "/panel",
               "title": "Panel 展示板"
-            },
-            {
-              "path": "/lr-container",
-              "title": "LrContainer 左右布局容器"
             }
           ]
         },
@@ -302,8 +298,16 @@
           "groupName": "Expand",
           "list": [
             {
+              "path": "/lr-container",
+              "title": "LrContainer 左右布局容器"
+            },
+            {
               "path": "/loading-button",
               "title": "LoadingButton 加载按钮"
+            },
+            {
+              "path": "/tabs-dotted",
+              "title": "TabsDotted TabsDotted标签"
             },
             {
               "path": "/data-mapper",
@@ -606,10 +610,6 @@
             {
               "path": "/panel",
               "title": "Panel"
-            },
-            {
-              "path": "/lr-container",
-              "title": "LrContainer"
             }
           ]
         },
@@ -617,8 +617,16 @@
           "groupName": "Expand",
           "list": [
             {
+              "path": "/lr-container",
+              "title": "LrContainer"
+            },
+            {
               "path": "/loading-button",
               "title": "LoadingButton"
+            },
+            {
+              "path": "/tabs-dotted",
+              "title": "TabsDotted"
             },
             {
               "path": "/data-mapper",
@@ -921,10 +929,6 @@
             {
               "path": "/panel",
               "title": "Panel"
-            },
-            {
-              "path": "/lr-container",
-              "title": "LrContainer"
             }
           ]
         },
@@ -932,9 +936,16 @@
           "groupName": "Expand",
           "list": [
             {
+              "path": "/lr-container",
+              "title": "LrContainer"
+            },
+            {
               "path": "/loading-button",
               "title": "LoadingButton"
             },
+            {
+              "path": "/tabs-dotted",
+              "title": "TabsDotted"},
             {
               "path": "/data-mapper",
               "title": "DataMapper"
@@ -1232,6 +1243,10 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            },
+            {
+              "path": "/tabs-dotted",
+              "title": "TabsDotted"
             },
             {
               "path": "/panel",
