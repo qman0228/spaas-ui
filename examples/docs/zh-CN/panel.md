@@ -10,7 +10,6 @@
 :::demo 
 ```html
 <el-panel title="标题" subtitle="小标题" type="view"></el-panel>
-
 ```
 :::
 
@@ -42,4 +41,4 @@
 | subtitle | 小标题 | string | — | — |
 | type | 展示类型 | string | view/edit | view |
 | bodyPadding | 内边距 | string | — | — |
-| width | 宽度 | string | — | — |
+| width | 宽度 | string/number | — | — |

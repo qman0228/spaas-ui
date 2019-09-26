@@ -1,5 +1,5 @@
 <template>
-  <div class="el-panel" :style="{width: width}">
+  <div class="el-panel" :style="{width: panelWidth}">
     <div :class="`el-panel-${panelType}__header`">
       <div :class="`el-panel-${panelType}__title`">
         <h3 class="title">{{ title }}</h3>
@@ -46,7 +46,7 @@ export default {
     },
     // panel宽度
     width: {
-      type: String,
+      type: [String, Number],
       default: '100%'
     }
   },
@@ -54,6 +54,9 @@ export default {
     // panel类型
     panelType() {
       return ['view', 'edit'].indexOf(this.type) !== -1 ? this.type : 'view';
+    },
+    panelWidth() {
+      return (/^[0-9]*px$/).test(this.width) ? this.width : this.width + 'px';
     }
   }
 };
