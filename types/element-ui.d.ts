@@ -89,6 +89,7 @@ import { ElIconCheckbox } from './icon-checkbox'
 import { ElStatusSteps } from './status-steps'
 import { ElInputIcon } from './input-icon'
 import { ElMessageBoxCenter } from './message-box-center'
+import { ElCheckboxImgButton } from './checkbox-img-button'
 
 export interface InstallationOptions {
   locale: any,
@@ -379,3 +380,6 @@ export class InputIcon extends ElInputIcon {}
 
 /** MessageBoxCenter Component */
 export const MessageBoxCenter: ElMessageBoxCenter
+
+/** CheckboxImgButton Component */
+export class CheckboxImgButton extends ElCheckboxImgButton {}

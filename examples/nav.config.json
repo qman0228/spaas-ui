@@ -336,6 +336,10 @@
             {
               "path": "/data-mapper",
               "title": "DataMapper 数据映射"
+            },
+            {
+              "path": "/checkbox-img-button",
+              "title": "CheckboxImgButton 带图片的Checkbox"
             }
           ]
         }
@@ -679,6 +683,10 @@
             {
               "path": "/data-mapper",
               "title": "DataMapper"
+            },
+            {
+              "path": "/checkbox-img-button",
+              "title": "CheckboxImgButton"
             }
           ]
         }
@@ -1021,6 +1029,10 @@
             {
               "path": "/message-box-center",
               "title": "MessageBoxCenter"
+            },
+            {
+              "path": "/checkbox-img-button",
+              "title": "CheckboxImgButton"
             }
           ]
         }
@@ -1355,6 +1367,10 @@
             {
               "path": "/data-mapper",
               "title": "DataMapper"
+            },
+            {
+              "path": "/checkbox-img-button",
+              "title": "CheckboxImgButton"
             }
           ]
         }

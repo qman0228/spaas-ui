@@ -32,7 +32,6 @@ import TimePicker from '../packages/time-picker/index.js';
 import Popover from '../packages/popover/index.js';
 import Tooltip from '../packages/tooltip/index.js';
 import MessageBox from '../packages/message-box/index.js';
-import MessageBoxCenter from '../packages/message-box-center/index.js';
 import Breadcrumb from '../packages/breadcrumb/index.js';
 import BreadcrumbItem from '../packages/breadcrumb-item/index.js';
 import Form from '../packages/form/index.js';
@@ -84,13 +83,15 @@ import CascaderPanel from '../packages/cascader-panel/index.js';
 import Avatar from '../packages/avatar/index.js';
 import Drawer from '../packages/drawer/index.js';
 import Panel from '../packages/panel/index.js';
-import LrContainer from '../packages/lr-container/index.js';
-import LoadingButton from '../packages/loading-button/index.js';
-import DataMapper from '../packages/data-mapper/index.js';
 import OtherColor from '../packages/other-color/index.js';
 import IconCheckbox from '../packages/icon-checkbox/index.js';
 import StatusSteps from '../packages/status-steps/index.js';
 import InputIcon from '../packages/input-icon/index.js';
+import LrContainer from '../packages/lr-container/index.js';
+import LoadingButton from '../packages/loading-button/index.js';
+import CheckboxImgButton from '../packages/checkbox-img-button/index.js';
+import DataMapper from '../packages/data-mapper/index.js';
+import MessageBoxCenter from '../packages/message-box-center/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -173,13 +174,14 @@ const components = [
   Avatar,
   Drawer,
   Panel,
-  LrContainer,
-  LoadingButton,
-  DataMapper,
   OtherColor,
   IconCheckbox,
   StatusSteps,
   InputIcon,
+  LrContainer,
+  LoadingButton,
+  CheckboxImgButton,
+  DataMapper,
   MessageBoxCenter,
   CollapseTransition
 ];
@@ -206,9 +208,6 @@ const install = function(Vue, opts = {}) {
   Vue.prototype.$confirm = MessageBox.confirm;
   Vue.prototype.$prompt = MessageBox.prompt;
   Vue.prototype.$notify = Notification;
-  Vue.prototype.$msgboxCenter = MessageBoxCenter;
-  Vue.prototype.$alertCenter = MessageBoxCenter.alert;
-  Vue.prototype.$confirmCenter = MessageBoxCenter.confirm;
   Vue.prototype.$message = Message;
 
 };
@@ -257,7 +256,6 @@ export default {
   Popover,
   Tooltip,
   MessageBox,
-  MessageBoxCenter,
   Breadcrumb,
   BreadcrumbItem,
   Form,
@@ -308,11 +306,13 @@ export default {
   Avatar,
   Drawer,
   Panel,
-  DataMapper,
-  LoadingButton,
   OtherColor,
   IconCheckbox,
   StatusSteps,
   InputIcon,
-  LrContainer
+  LrContainer,
+  LoadingButton,
+  CheckboxImgButton,
+  DataMapper,
+  MessageBoxCenter
 };

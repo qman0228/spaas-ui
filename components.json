@@ -82,13 +82,13 @@
   "avatar": "./packages/avatar/index.js",
   "drawer": "./packages/drawer/index.js",
   "panel": "./packages/panel/index.js",
-  "loading-button": "./packages/loading-button/index.js",
   "other-color": "./packages/other-color/index.js",
   "icon-checkbox": "./packages/icon-checkbox/index.js",
   "status-steps": "./packages/status-steps/index.js",
   "input-icon": "./packages/input-icon/index.js",
   "lr-container": "./packages/lr-container/index.js",
   "loading-button": "./packages/loading-button/index.js",
+  "checkbox-img-button": "./packages/checkbox-img-button/index.js",
   "data-mapper": "./packages/data-mapper/index.js",
   "message-box-center": "./packages/message-box-center/index.js"
 }
