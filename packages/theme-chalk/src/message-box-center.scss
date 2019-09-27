@@ -1,0 +1,6 @@
+@import "mixins/mixins";
+@import "common/var";
+@import "./message-box";
+
+@include b(message-box-center) {
+}

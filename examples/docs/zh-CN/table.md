@@ -57,6 +57,111 @@
 ```
 :::
 
+表头筛选状态
+
+:::demo 当`el-table`元素中注入`data`对象数组后，在`el-table-column`中用`prop`属性来对应对象中的键名即可填入数据，用`label`属性来定义表格的列名。可以使用`width`属性来定义列宽。
+```html
+  <template>
+    <el-table
+      :data="tableData"
+      style="width: 100%">
+      <el-table-column
+        prop="date"
+        label="日期"
+        width="180">
+      </el-table-column>
+      <el-table-column
+        prop="name"
+        label="姓名"
+        width="180"
+        :render-header="renderHeader">
+      </el-table-column>
+      <el-table-column
+        prop="address"
+        label="地址">
+      </el-table-column>
+    </el-table>
+  </template>
+
+  <script>
+    export default {
+      data() {
+        return {
+          tableData: [{
+            date: '2016-05-02',
+            name: '王小虎',
+            address: '上海市普陀区金沙江路 1518 弄'
+          }, {
+            date: '2016-05-04',
+            name: '王小虎',
+            address: '上海市普陀区金沙江路 1517 弄'
+          }, {
+            date: '2016-05-01',
+            name: '王小虎',
+            address: '上海市普陀区金沙江路 1519 弄'
+          }, {
+            date: '2016-05-03',
+            name: '王小虎',
+            address: '上海市普陀区金沙江路 1516 弄'
+          }]
+        }
+      },
+      methods: {
+        renderHeader(h) {
+          const filter = [{
+            label: '正常',
+            value: 0
+          },{
+            label: '成功',
+            value: 1
+          },{
+            label: '过期',
+            value: 2
+          },{
+            label: '异常',
+            value: 3
+          }];
+          
+          return h('el-dropdown', {
+            style: {
+              padding: 0
+            }
+          }, [
+            h('span', {
+              'class': {
+                'el-dropdown-link': true
+              },
+              style: {
+                color: '#818389'
+              }
+            }, [
+              '状态',
+              h('i', {
+                'class': {
+                  'el-icon-caret-bottom': true,
+                  'el-icon--right': true
+                }
+              })
+            ]),
+            h('el-dropdown-menu', {
+              'class': {
+                abc: true
+              }
+            }, [
+              filter.map(item => {
+                return h('el-dropdown-item', {
+                
+                },item.label)
+              })
+            ])
+          ])
+        }
+      }
+    }
+  </script>
+```
+:::
+
 ### 带斑马纹表格
 
 使用带斑马纹的表格，可以更容易区分出不同行的数据。

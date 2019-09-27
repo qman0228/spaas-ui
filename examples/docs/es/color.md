@@ -28,12 +28,12 @@
     white: '#FFFFFF',
     black: '#000000',
     textPrimary: '#2D303B',
-    textRegular: '#2D303B',
-    textSecondary: '#93959b',
+    textRegular: '#575962', // #2D303B
+    textSecondary: '#818389', // #93959b
     textPlaceholder: '#9CA6C7',
-    borderBase: '#CAD1E8',
-    borderLight: '#CAD1E8',
-    borderLighter: '#EBEEF5',
+    borderBase: '#E4E8F3', // #CAD1E8
+    borderLight: '#E1E5F0', // CAD1E8
+    borderLighter: '#CAD1E8', // EBEEF5
     borderExtraLight: '#F2F6FC'
   }
   export default {

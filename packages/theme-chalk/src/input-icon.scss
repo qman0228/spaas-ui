@@ -1,0 +1,22 @@
+@import "mixins/mixins";
+@import "common/var";
+
+@include b(input-icon) {
+  .el-icon-circle-close:before {
+    content: "\e6db";
+    background-color: #9CA6C7;
+    border-radius: 100%;
+    color: #FFFFFF;
+  }
+
+  .el-input__validateIcon {
+    &.el-icon-circle-close:before {
+      color: #FFFFFF;
+      background: #E24156;
+    }
+    &.el-icon-circle-checkbefore {
+      background: transparent;
+    }
+  }
+
+}

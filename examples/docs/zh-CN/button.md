@@ -84,6 +84,15 @@
 ```
 :::
 
+带图标文字按钮
+:::demo
+```html
+<el-button type="text" icon="el-icon-circle-plus-outline">添加</el-button>
+<el-button type="text" icon="el-icon-edit-outline">修改</el-button>
+<el-button type="text" icon="el-icon-refresh">重新获取</el-button>
+```
+:::
+
 ### 图标按钮
 
 带图标的按钮可增强辨识度（有文字）或节省空间（无文字）。

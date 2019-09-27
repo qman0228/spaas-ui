@@ -84,6 +84,11 @@ import { ElLoadingButton } from './loading-button'
 import { ElTabsDotted } from './tabs-dotted'
 import { ElPanel } from './panel'
 import { ElDataMapper } from './data-mapper'
+import { ElOtherColor } from './other-color'
+import { ElIconCheckbox } from './icon-checkbox'
+import { ElStatusSteps } from './status-steps'
+import { ElInputIcon } from './input-icon'
+import { ElMessageBoxCenter } from './message-box-center'
 
 export interface InstallationOptions {
   locale: any,
@@ -360,3 +365,17 @@ export class Panel extends ElPanel {}
 
 /** DataMapper Component */
 export class DataMapper extends ElDataMapper {}
+/** OtherColor Component */
+export class OtherColor extends ElOtherColor {}
+
+/** IconCheckbox Component */
+export class IconCheckbox extends ElIconCheckbox {}
+
+/** StatusSteps Component */
+export class StatusSteps extends ElStatusSteps {}
+
+/** InputIcon Component */
+export class InputIcon extends ElInputIcon {}
+
+/** MessageBoxCenter Component */
+export const MessageBoxCenter: ElMessageBoxCenter

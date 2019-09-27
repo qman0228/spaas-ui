@@ -7,7 +7,7 @@
 @include b(message-box) {
   display: inline-block;
   width: $--msgbox-width;
-  padding-bottom: 10px;
+  padding-bottom: 0px; // 10px
   vertical-align: middle;
   background-color: $--color-white;
   border-radius: $--msgbox-border-radius;
@@ -38,7 +38,7 @@
   @include e(header) {
     position: relative;
     padding: $--msgbox-padding-primary;
-    padding-bottom: 10px;
+    padding-bottom: 28px; // 10px
   }
 
   @include e(title) {
@@ -77,6 +77,10 @@
     padding: 10px $--msgbox-padding-primary;
     color: $--messagebox-content-color;
     font-size: $--messagebox-content-font-size;
+    &.message-center {
+      display: flex;
+      justify-content: center;
+    }
   }
 
   @include e(input) {
@@ -140,8 +144,10 @@
   }
 
   @include e(btns) {
-    padding: 5px 15px 0;
+    margin-top: 20px;
+    padding: 10px 15px 10px; // 5px 15px 0
     text-align: right;
+    background-color: #F4F6FA;
 
     & button:nth-child(2) {
       margin-left: 10px;
@@ -154,7 +160,7 @@
 
   // centerAlign 布局
   @include m(center) {
-    padding-bottom: 30px;
+    //padding-bottom: 30px;
 
     @include e(header) {
       padding-top: 30px;

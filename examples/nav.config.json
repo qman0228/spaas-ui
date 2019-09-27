@@ -289,6 +289,26 @@
               "title": "Drawer 抽屉"
             },
             {
+              "path": "/other-color",
+              "title": "OtherColor 其它颜色"
+            },
+            {
+              "path": "/icon-checkbox",
+              "title": "Checkbox 多选框"
+            },
+            {
+              "path": "/status-steps",
+              "title": "Steps 步骤条"
+            },
+            {
+              "path": "/input-icon",
+              "title": "InputIcon 输入框"
+            },
+            {
+              "path": "/lr-container",
+              "title": "LrContainer 左右布局容器"
+            },
+            {
               "path": "/panel",
               "title": "Panel 展示板"
             }
@@ -304,6 +324,10 @@
             {
               "path": "/loading-button",
               "title": "LoadingButton 加载按钮"
+            },
+            {
+              "path": "/message-box-center",
+              "title": "MessageBoxCenter 组件"
             },
             {
               "path": "/tabs-dotted",
@@ -608,6 +632,26 @@
               "title": "Drawer"
             },
             {
+              "path": "/other-color",
+              "title": "OtherColor"
+            },
+            {
+              "path": "/icon-checkbox",
+              "title": "Checkbox"
+            },
+            {
+              "path": "/status-steps",
+              "title": "StatusSteps"
+            },
+            {
+              "path": "/input-icon",
+              "title": "InputIcon"
+            },
+            {
+              "path": "/lr-container",
+              "title": "LrContainer"
+            },
+            {
               "path": "/panel",
               "title": "Panel"
             }
@@ -623,6 +667,10 @@
             {
               "path": "/loading-button",
               "title": "LoadingButton"
+            },
+            {
+              "path": "/message-box-center",
+              "title": "MessageBoxCenter"
             },
             {
               "path": "/tabs-dotted",
@@ -927,7 +975,27 @@
               "title": "Drawer"
             },
             {
-              "path": "/panel",
+              "path": "/other-color",
+              "title": "OtherColor"
+            },
+            {
+              "path": "/icon-checkbox",
+              "title": "Checkbox"
+            },
+            {
+              "path": "/status-steps",
+              "title": "StatusSteps"
+            },
+            {
+              "path": "/input-icon",
+              "title": "InputIcon"
+            },
+            {
+              "path": "/lr-container",
+              "title": "LrContainer"
+            },
+            {
+            "path": "/panel",
               "title": "Panel"
             }
           ]
@@ -949,6 +1017,10 @@
             {
               "path": "/data-mapper",
               "title": "DataMapper"
+            },
+            {
+              "path": "/message-box-center",
+              "title": "MessageBoxCenter"
             }
           ]
         }
@@ -1259,6 +1331,26 @@
             {
               "path": "/loading-button",
               "title": "LoadingButton"
+            },
+            {
+              "path": "/other-color",
+              "title": "OtherColor"
+            },
+            {
+              "path": "/icon-checkbox",
+              "title": "Checkbox"
+            },
+            {
+              "path": "/status-steps",
+              "title": "StatusSteps"
+            },
+            {
+              "path": "/input-icon",
+              "title": "InputIcon"
+            },
+            {
+              "path": "/message-box-center",
+              "title": "MessageBoxCenter"
             },
             {
               "path": "/data-mapper",
