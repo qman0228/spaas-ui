@@ -287,34 +287,6 @@
             {
               "path": "/drawer",
               "title": "Drawer 抽屉"
-            },
-            {
-              "path": "/radio-img-button",
-              "title": "RadioImgButton 带图片的radio"
-            },
-            {
-              "path": "/other-color",
-              "title": "OtherColor 其它颜色"
-            },
-            {
-              "path": "/icon-checkbox",
-              "title": "Checkbox 多选框"
-            },
-            {
-              "path": "/status-steps",
-              "title": "Steps 步骤条"
-            },
-            {
-              "path": "/input-icon",
-              "title": "InputIcon 输入框"
-            },
-            {
-              "path": "/lr-container",
-              "title": "LrContainer 左右布局容器"
-            },
-            {
-              "path": "/panel",
-              "title": "Panel 展示板"
             }
           ]
         },
@@ -331,7 +303,7 @@
             },
             {
               "path": "/message-box-center",
-              "title": "MessageBoxCenter 组件"
+              "title": "MessageBoxCenter 居中提示弹窗"
             },
             {
               "path": "/tabs-dotted",
@@ -339,11 +311,35 @@
             },
             {
               "path": "/data-mapper",
-              "title": "DataMapper 数据映射"
+              "title": "DataMapper 详情数据映射"
             },
             {
               "path": "/checkbox-img-button",
               "title": "CheckboxImgButton 带图片的Checkbox"
+            },
+            {
+              "path": "/radio-img-button",
+              "title": "RadioImgButton 带图片的radio"
+            },
+            {
+              "path": "/other-color",
+              "title": "OtherColor 其它颜色"
+            },
+            {
+              "path": "/icon-checkbox",
+              "title": "IconCheckbox 多选框"
+            },
+            {
+              "path": "/status-steps",
+              "title": "StatusSteps 简约风步骤条"
+            },
+            {
+              "path": "/input-icon",
+              "title": "InputIcon 输入框"
+            },
+            {
+              "path": "/panel",
+              "title": "Panel 详情展示板"
             }
           ]
         }
@@ -638,34 +634,6 @@
             {
               "path": "/drawer",
               "title": "Drawer"
-            },
-            {
-              "path": "/radio-img-button",
-              "title": "RadioImgButton"
-            },
-            {
-              "path": "/other-color",
-              "title": "OtherColor"
-            },
-            {
-              "path": "/icon-checkbox",
-              "title": "Checkbox"
-            },
-            {
-              "path": "/status-steps",
-              "title": "StatusSteps"
-            },
-            {
-              "path": "/input-icon",
-              "title": "InputIcon"
-            },
-            {
-              "path": "/lr-container",
-              "title": "LrContainer"
-            },
-            {
-              "path": "/panel",
-              "title": "Panel"
             }
           ]
         },
@@ -695,6 +663,30 @@
             {
               "path": "/checkbox-img-button",
               "title": "CheckboxImgButton"
+            },
+            {
+              "path": "/radio-img-button",
+              "title": "RadioImgButton"
+            },
+            {
+              "path": "/other-color",
+              "title": "OtherColor"
+            },
+            {
+              "path": "/icon-checkbox",
+              "title": "IconCheckbox"
+            },
+            {
+              "path": "/status-steps",
+              "title": "StatusSteps"
+            },
+            {
+              "path": "/input-icon",
+              "title": "InputIcon"
+            },
+            {
+              "path": "/panel",
+              "title": "Panel"
             }
           ]
         }
@@ -989,34 +981,6 @@
             {
               "path": "/drawer",
               "title": "Drawer"
-            },
-            {
-              "path": "/radio-img-button",
-              "title": "RadioImgButton"
-            },
-            {
-              "path": "/other-color",
-              "title": "OtherColor"
-            },
-            {
-              "path": "/icon-checkbox",
-              "title": "Checkbox"
-            },
-            {
-              "path": "/status-steps",
-              "title": "StatusSteps"
-            },
-            {
-              "path": "/input-icon",
-              "title": "InputIcon"
-            },
-            {
-              "path": "/lr-container",
-              "title": "LrContainer"
-            },
-            {
-            "path": "/panel",
-              "title": "Panel"
             }
           ]
         },
@@ -1045,6 +1009,30 @@
             {
               "path": "/checkbox-img-button",
               "title": "CheckboxImgButton"
+            },
+            {
+              "path": "/radio-img-button",
+              "title": "RadioImgButton"
+            },
+            {
+              "path": "/other-color",
+              "title": "OtherColor"
+            },
+            {
+              "path": "/icon-checkbox",
+              "title": "IconCheckbox"
+            },
+            {
+              "path": "/status-steps",
+              "title": "StatusSteps"
+            },
+            {
+              "path": "/input-icon",
+              "title": "InputIcon"
+            },
+            {
+              "path": "/panel",
+              "title": "Panel"
             }
           ]
         }
@@ -1339,19 +1327,12 @@
             {
               "path": "/drawer",
               "title": "Drawer"
-            },
-            {
-              "path": "/radio-img-button",
-              "title": "RadioImgButton"
-            },
-            {
-              "path": "/tabs-dotted",
-              "title": "TabsDotted"
-            },
-            {
-              "path": "/panel",
-              "title": "Panel"
-            },
+            }
+          ]
+        },
+        {
+          "groupName": "Expand",
+          "list": [
             {
               "path": "/lr-container",
               "title": "LrContainer"
@@ -1361,12 +1342,32 @@
               "title": "LoadingButton"
             },
             {
+              "path": "/message-box-center",
+              "title": "MessageBoxCenter"
+            },
+            {
+              "path": "/tabs-dotted",
+              "title": "TabsDotted"
+            },
+            {
+              "path": "/data-mapper",
+              "title": "DataMapper"
+            },
+            {
+              "path": "/checkbox-img-button",
+              "title": "CheckboxImgButton"
+            },
+            {
+              "path": "/radio-img-button",
+              "title": "RadioImgButton"
+            },
+            {
               "path": "/other-color",
               "title": "OtherColor"
             },
             {
               "path": "/icon-checkbox",
-              "title": "Checkbox"
+              "title": "IconCheckbox"
             },
             {
               "path": "/status-steps",
@@ -1377,16 +1378,8 @@
               "title": "InputIcon"
             },
             {
-              "path": "/message-box-center",
-              "title": "MessageBoxCenter"
-            },
-            {
-              "path": "/data-mapper",
-              "title": "DataMapper"
-            },
-            {
-              "path": "/checkbox-img-button",
-              "title": "CheckboxImgButton"
+              "path": "/panel",
+              "title": "Panel"
             }
           ]
         }
