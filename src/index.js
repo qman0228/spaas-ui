@@ -205,7 +205,6 @@ const install = function(Vue, opts = {}) {
   Vue.prototype.$loading = Loading.service;
   Vue.prototype.$msgbox = MessageBox;
   Vue.prototype.$alert = MessageBox.alert;
-  Vue.prototype.$alertCenter = MessageBoxCenter.alert;
   Vue.prototype.$confirm = MessageBox.confirm;
   Vue.prototype.$prompt = MessageBox.prompt;
   Vue.prototype.$notify = Notification;
@@ -219,7 +218,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  version: '2.12.0',
+  version: '2.13.0',
   locale: locale.use,
   i18n: locale.i18n,
   install,
