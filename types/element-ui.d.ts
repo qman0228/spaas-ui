@@ -87,7 +87,6 @@ import { ElDataMapper } from './data-mapper'
 import { ElOtherColor } from './other-color'
 import { ElIconCheckbox } from './icon-checkbox'
 import { ElStatusSteps } from './status-steps'
-import { ElInputIcon } from './input-icon'
 import { ElMessageBoxCenter } from './message-box-center'
 import { ElCheckboxImgButton } from './checkbox-img-button'
 
@@ -378,9 +377,6 @@ export class IconCheckbox extends ElIconCheckbox {}
 
 /** StatusSteps Component */
 export class StatusSteps extends ElStatusSteps {}
-
-/** InputIcon Component */
-export class InputIcon extends ElInputIcon {}
 
 /** MessageBoxCenter Component */
 export const MessageBoxCenter: ElMessageBoxCenter

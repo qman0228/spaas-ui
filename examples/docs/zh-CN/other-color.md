@@ -95,8 +95,8 @@
 
 <el-row :gutter="12">
   <el-col :span="8" :md="{span: 8}" :sm="{span: 12}" :xs="{span: 12}" :style="{ marginBottom: '50px'}">
-    <div :style="{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}">
-      <div class="value" :style="{ marginRight: '30px', width: '70px', height: '70px', lineHeight: '70px', background: '#975FE4',borderRadius: '100%' }"></div>
+    <div :style="{display: 'flex', alignItems: 'center'}">
+      <div class="value" :style="{ marginRight: '10px', width: '70px', height: '70px', lineHeight: '70px', background: '#975FE4',borderRadius: '100%' }"></div>
       <div>
         <div :style="{color: '#000000'}">紫色</div>
         <div :style="{ color: '#999999' }">#975FE4 / 151-95-228</div>
@@ -105,8 +105,8 @@
   </el-col>
   
   <el-col :span="8" :md="{span: 8}" :sm="{span: 12}" :xs="{span: 12}" :style="{ marginBottom: '50px'}">
-    <div :style="{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}">
-          <div class="value" :style="{ marginRight: '30px', width: '70px', height: '70px', lineHeight: '70px', background: '#36CBCB',borderRadius: '100%' }"></div>
+    <div :style="{display: 'flex', alignItems: 'center'}">
+          <div class="value" :style="{ marginRight: '10px', width: '70px', height: '70px', lineHeight: '70px', background: '#36CBCB',borderRadius: '100%' }"></div>
           <div>
             <div :style="{color: '#000000'}">宝绿色</div>
             <div :style="{ color: '#999999' }">#36CBCB / 54-203-203</div>
@@ -115,8 +115,8 @@
   </el-col>
   
   <el-col :span="8" :md="{span: 8}" :sm="{span: 12}" :xs="{span: 12}" :style="{ marginBottom: '50px'}">
-      <div :style="{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}">
-        <div class="value" :style="{ marginRight: '30px', width: '70px', height: '70px', lineHeight: '70px', background: '#F2637B',borderRadius: '100%' }"></div>
+      <div :style="{display: 'flex', alignItems: 'center'}">
+        <div class="value" :style="{ marginRight: '10px', width: '70px', height: '70px', lineHeight: '70px', background: '#F2637B',borderRadius: '100%' }"></div>
         <div>
           <div :style="{color: '#000000'}">粉色</div>
           <div :style="{ color: '#999999' }">#F2637B / 242-99-123</div>
@@ -125,8 +125,8 @@
   </el-col>
     
   <el-col :span="8" :md="{span: 8}" :sm="{span: 12}" :xs="{span: 12}" :style="{ marginBottom: '50px'}">
-      <div :style="{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}">
-        <div class="value" :style="{ marginRight: '30px', width: '70px', height: '70px', lineHeight: '70px', background: '#F5A623',borderRadius: '100%' }"></div>
+      <div :style="{display: 'flex', alignItems: 'center'}">
+        <div class="value" :style="{ marginRight: '10px', width: '70px', height: '70px', lineHeight: '70px', background: '#F5A623',borderRadius: '100%' }"></div>
         <div>
           <div :style="{color: '#000000'}">橙黄色</div>
           <div :style="{ color: '#999999' }">#F5A623 / 245-166-35</div>
@@ -135,8 +135,8 @@
   </el-col>
     
   <el-col :span="8" :md="{span: 8}" :sm="{span: 12}" :xs="{span: 12}" :style="{ marginBottom: '50px'}">
-      <div :style="{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}">
-        <div class="value" :style="{ marginRight: '30px', width: '70px', height: '70px', lineHeight: '70px', background: '#818389',borderRadius: '100%' }"></div>
+      <div :style="{display: 'flex', alignItems: 'center'}">
+        <div class="value" :style="{ marginRight: '10px', width: '70px', height: '70px', lineHeight: '70px', background: '#818389',borderRadius: '100%' }"></div>
         <div>
           <div :style="{color: '#000000'}">灰色</div>
           <div :style="{ color: '#999999' }">#818389 / 129-131-13</div>

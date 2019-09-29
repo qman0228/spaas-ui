@@ -1,7 +1,11 @@
 ## CheckboxImgButton 带图片的Checkbox
+
 该组件支持 `el-checkbox` 的所有属性和方法，相关文档可参考`el-checkbox`组件
+
 ### 自定义内容用法
+
 自定义内容 -- `vertical`属性可设置纵向和横向（默认）
+
 :::demo 
 ```html
 <template>
@@ -35,24 +39,26 @@
 :::
 
 ### 带图片用法
+
 根据 `el-checkbox-img-button` 标签中属性 `img-url` 的值不为空进行判断.
+
 #### 纵向布局
 
 :::demo
 ```html
 <div style="display:flex;">
-  <el-checkbox-img-button 
-    vertical 
-    v-model="check1" 
-    :img-url="imgUrl" 
-    img-title="飞飞飞飞飞飞飞飞飞" 
+  <el-checkbox-img-button
+    vertical
+    v-model="check1"
+    :img-url="imgUrl"
+    img-title="飞飞飞飞飞飞飞飞飞"
     label="1">
   </el-checkbox-img-button>
   <el-checkbox-img-button
     vertical
-    v-model="check1" 
-    :img-url="imgUrl" 
-    img-title="呀呀呀呀呀呀哎呀" 
+    v-model="check1"
+    :img-url="imgUrl"
+    img-title="呀呀呀呀呀呀哎呀"
     label="2">
   </el-checkbox-img-button>
 </div>
@@ -76,18 +82,18 @@
 ```html
 <div  style="display:flex;flex-direction:column;">
   <el-checkbox-img-button  
-    v-model="check1" 
-    :img-url="img.url" 
-    :img-title="img.title" 
+    v-model="check1"
+    :img-url="img.url"
+    :img-title="img.title"
     :img-desc="img.desc"
     label="1">
   </el-checkbox-img-button>
   <el-checkbox-img-button  
-    v-model="check1" 
-    :img-url="img.url" 
-    :img-title="img.title" 
-    :img-desc="img.desc" 
-    label="2" 
+    v-model="check1"
+    :img-url="img.url"
+    :img-title="img.title"
+    :img-desc="img.desc"
+    label="2"
     style="margin-top:15px;width:400px">
   </el-checkbox-img-button>
 </div>
@@ -118,4 +124,7 @@
 | img-url  | 图片地址    | string   | — | —   |
 | img-title  | 图片标题    | string   | — | —  |
 | img-desc  | 图片描述    | string   | — | —  |
-|   |  其他属性和方法参考el-checkbox   |    | — | —  |
+
+:::tip
+说明：其他属性和方法请参考 `Checkbox`组件
+:::

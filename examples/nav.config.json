@@ -334,10 +334,6 @@
               "title": "StatusSteps 简约风步骤条"
             },
             {
-              "path": "/input-icon",
-              "title": "InputIcon 输入框"
-            },
-            {
               "path": "/panel",
               "title": "Panel 详情展示板"
             }
@@ -679,10 +675,6 @@
             {
               "path": "/status-steps",
               "title": "StatusSteps"
-            },
-            {
-              "path": "/input-icon",
-              "title": "InputIcon"
             },
             {
               "path": "/panel",
@@ -1027,10 +1019,6 @@
               "title": "StatusSteps"
             },
             {
-              "path": "/input-icon",
-              "title": "InputIcon"
-            },
-            {
               "path": "/panel",
               "title": "Panel"
             }
@@ -1372,10 +1360,6 @@
             {
               "path": "/status-steps",
               "title": "StatusSteps"
-            },
-            {
-              "path": "/input-icon",
-              "title": "InputIcon"
             },
             {
               "path": "/panel",

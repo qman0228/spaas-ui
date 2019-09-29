@@ -1,4 +1,4 @@
-## icon-checkbox
+## IconCheckbox 不同样式的多选框
 新样式
 
 `indeterminate` 属性用以表示 checkbox 的不确定状态，一般用于实现全选的效果
@@ -43,5 +43,6 @@
 ```
 :::
 
-### 用法参考
-[Checkbox 多选框](https://element.eleme.cn/#/zh-CN/component/checkbox)
+:::tip
+说明：其他属性和方法与 `Checkbox`组件完全一致
+:::

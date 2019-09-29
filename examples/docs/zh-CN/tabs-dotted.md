@@ -1,9 +1,9 @@
 ## TabsDotted 点分tab标签
 
-### 说明
 本组件是对 `el-tabs` 进行扩展，新增`type="dotted"`类型。tips：`el-tabs` 所有的属性和方法在该组件同样适用。
 
 ### 基础用法
+
 :::demo 
 
 ```html
@@ -33,4 +33,7 @@
 |---------- |-------- |---------- |-------------  |-------- |
 | type     | 风格类型   | string   | card/border-card/dotted  |     —    |
 | tab-position | 选项卡所在位置 | string  |  top/right/bottom/left --- type="dotted"只支持top/bottom |  top |
-| | ...其他参数和方法请参考 Tabs    |
+
+:::tip
+说明：其他属性和方法请参考 `Tabs`组件
+:::

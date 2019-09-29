@@ -228,3 +228,7 @@
 | imgUrl          | 图片地址       | string                    | —      | —           |
 | text            | 按钮文字       | string                    | —      | —           |
 | description     | 按钮描述       | string                    | —      | —           |
+
+:::tip
+说明：其他属性和方法请参考 `Radio`组件
+:::

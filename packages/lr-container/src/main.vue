@@ -1,6 +1,6 @@
 <template>
-  <div class="el-lr-container" >
-    <div class="el-lr-container-aside">
+  <div :class="['el-lr-container', border && 'is-bordered']" >
+    <div class="el-lr-container-aside el-aside-border-right">
       <el-scrollbar>
         <div class="el-lr-container-aside-content" ref="aside-content">
           <slot name="aside"></slot>
@@ -25,6 +25,7 @@ export default {
     elScrollbar
   },
   props: {
+    border: Boolean,
     asideWidth: [String, Number],
     asideHeight: [String, Number],
     mainHeight: [String, Number]

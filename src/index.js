@@ -87,7 +87,6 @@ import Panel from '../packages/panel/index.js';
 import OtherColor from '../packages/other-color/index.js';
 import IconCheckbox from '../packages/icon-checkbox/index.js';
 import StatusSteps from '../packages/status-steps/index.js';
-import InputIcon from '../packages/input-icon/index.js';
 import LrContainer from '../packages/lr-container/index.js';
 import LoadingButton from '../packages/loading-button/index.js';
 import CheckboxImgButton from '../packages/checkbox-img-button/index.js';
@@ -179,7 +178,6 @@ const components = [
   OtherColor,
   IconCheckbox,
   StatusSteps,
-  InputIcon,
   LrContainer,
   LoadingButton,
   CheckboxImgButton,
@@ -207,6 +205,7 @@ const install = function(Vue, opts = {}) {
   Vue.prototype.$loading = Loading.service;
   Vue.prototype.$msgbox = MessageBox;
   Vue.prototype.$alert = MessageBox.alert;
+  Vue.prototype.$alertCenter = MessageBoxCenter.alert;
   Vue.prototype.$confirm = MessageBox.confirm;
   Vue.prototype.$prompt = MessageBox.prompt;
   Vue.prototype.$notify = Notification;
@@ -312,7 +311,6 @@ export default {
   OtherColor,
   IconCheckbox,
   StatusSteps,
-  InputIcon,
   LrContainer,
   LoadingButton,
   CheckboxImgButton,
