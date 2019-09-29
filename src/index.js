@@ -82,6 +82,7 @@ import PageHeader from '../packages/page-header/index.js';
 import CascaderPanel from '../packages/cascader-panel/index.js';
 import Avatar from '../packages/avatar/index.js';
 import Drawer from '../packages/drawer/index.js';
+import RadioImgButton from '../packages/radio-img-button/index.js';
 import Panel from '../packages/panel/index.js';
 import OtherColor from '../packages/other-color/index.js';
 import IconCheckbox from '../packages/icon-checkbox/index.js';
@@ -173,6 +174,7 @@ const components = [
   CascaderPanel,
   Avatar,
   Drawer,
+  RadioImgButton,
   Panel,
   OtherColor,
   IconCheckbox,
@@ -305,6 +307,7 @@ export default {
   CascaderPanel,
   Avatar,
   Drawer,
+  RadioImgButton,
   Panel,
   OtherColor,
   IconCheckbox,

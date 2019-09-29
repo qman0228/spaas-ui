@@ -91,6 +91,8 @@ import { ElInputIcon } from './input-icon'
 import { ElMessageBoxCenter } from './message-box-center'
 import { ElCheckboxImgButton } from './checkbox-img-button'
 
+import { ElRadioImgButton } from './radio-img-button'
+
 export interface InstallationOptions {
   locale: any,
   i18n: any,
@@ -358,6 +360,8 @@ export class LrContainer extends ElLrContainer {}
 /** LoadingButton Component */
 export class LoadingButton extends ElLoadingButton {}
 
+/** RadioImgButton Component */
+export class RadioImgButton extends ElRadioImgButton {}
 /** TabsDotted Component */
 export class TabsDotted extends ElTabsDotted {}
 

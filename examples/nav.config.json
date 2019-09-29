@@ -289,6 +289,10 @@
               "title": "Drawer 抽屉"
             },
             {
+              "path": "/radio-img-button",
+              "title": "RadioImgButton 带图片的radio"
+            },
+            {
               "path": "/other-color",
               "title": "OtherColor 其它颜色"
             },
@@ -634,6 +638,10 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            },
+            {
+              "path": "/radio-img-button",
+              "title": "RadioImgButton"
             },
             {
               "path": "/other-color",
@@ -983,6 +991,10 @@
               "title": "Drawer"
             },
             {
+              "path": "/radio-img-button",
+              "title": "RadioImgButton"
+            },
+            {
               "path": "/other-color",
               "title": "OtherColor"
             },
@@ -1327,6 +1339,10 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            },
+            {
+              "path": "/radio-img-button",
+              "title": "RadioImgButton"
             },
             {
               "path": "/tabs-dotted",
