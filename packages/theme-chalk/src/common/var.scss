@@ -629,7 +629,7 @@ $--dialog-padding-primary: 20px !default;
 -------------------------- */
 /// color||Color|0
 $--table-border-color: $--border-color-lighter !default;
-$--table-border: 1px solid $--table-border-color !default;
+$--table-border: 1px solid #E1E5F0 !default; // $--table-border-color
 /// color||Color|0
 $--table-font-color: $--color-text-regular !default;
 /// color||Color|0
@@ -638,7 +638,7 @@ $--table-header-font-color: $--color-text-secondary !default;
 $--table-row-hover-background-color: #f6f8fb !default; // $--background-color-base
 $--table-current-row-background-color: $--color-primary-light-9 !default;
 /// color||Color|0
-$--table-header-background-color: $--color-white !default;
+$--table-header-background-color: #F4F6FA !default; // $--color-white
 $--table-fixed-box-shadow: 0 0 10px rgba(0, 0, 0, .12) !default;
 
 /* Pagination
@@ -866,7 +866,7 @@ $--collapse-content-font-color: $--color-text-primary !default;
 
 /* Transfer
 --------------------------*/
-$--transfer-border-color: $--border-color-lighter !default;
+$--transfer-border-color: #E4E8F3 !default; // $--border-color-lighter
 $--transfer-border-radius: $--border-radius-base !default;
 /// height||Other|4
 $--transfer-panel-width: 200px !default;

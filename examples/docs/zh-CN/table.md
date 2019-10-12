@@ -124,7 +124,8 @@
           
           return h('el-dropdown', {
             style: {
-              padding: 0
+              padding: 0,
+              'line-height': 'initial'
             }
           }, [
             h('span', {
@@ -143,11 +144,7 @@
                 }
               })
             ]),
-            h('el-dropdown-menu', {
-              'class': {
-                abc: true
-              }
-            }, [
+            h('el-dropdown-menu', {}, [
               filter.map(item => {
                 return h('el-dropdown-item', {
                 
