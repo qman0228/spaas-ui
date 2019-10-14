@@ -124,8 +124,8 @@
           
           return h('el-dropdown', {
             style: {
+              'line-height': 'initial',
               padding: 0,
-              'line-height': 'initial'
             }
           }, [
             h('span', {
