@@ -145,9 +145,9 @@
               })
             ]),
             h('el-dropdown-menu', {
-               'class': {
-                 abc: false // true
-               }
+              'class': {
+                abc: false // true
+              }
             }, [
               filter.map(item => {
                 return h('el-dropdown-item', {
