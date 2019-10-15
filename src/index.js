@@ -182,6 +182,7 @@ const components = [
   LoadingButton,
   CheckboxImgButton,
   DataMapper,
+  MessageBoxCenter,
   CollapseTransition
 ];
 
