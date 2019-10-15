@@ -182,7 +182,6 @@ const components = [
   LoadingButton,
   CheckboxImgButton,
   DataMapper,
-  MessageBoxCenter,
   CollapseTransition
 ];
 
@@ -204,7 +203,8 @@ const install = function(Vue, opts = {}) {
 
   Vue.prototype.$loading = Loading.service;
   Vue.prototype.$msgbox = MessageBox;
-  Vue.prototype.$alert = MessageBox.alert;
+  Vue.prototype.$alertCenter = MessageBox.alert;
+  Vue.prototype.$alertCenter = MessageBoxCenter.alert;
   Vue.prototype.$confirm = MessageBox.confirm;
   Vue.prototype.$prompt = MessageBox.prompt;
   Vue.prototype.$notify = Notification;
