@@ -14,7 +14,8 @@ export default {
   data() {
     return {
       height: 'auto',
-      contentHeight: 'auto'
+      contentHeight: 'auto',
+      tooltipContent: ''
     };
   },
   computed: {
@@ -38,7 +39,7 @@ export default {
           {
             props: {
               placement: 'top',
-              content: `${this.content}`,
+              content: `${this.tooltipContent}`,
               disabled: !this.show
             }
           },
@@ -52,13 +53,14 @@ export default {
     window.addEventListener('resize', this.computedEllipsis);
   },
   watch: {
-    content() {
+    content(val) {
       this.computedEllipsis();
     }
   },
   methods: {
     computedEllipsis() {
       this.$nextTick(() => {
+        this.tooltipContent = typeof this.content === 'object' ? this.content.elm.innerText : this.content;
         const el = this.$el;
         const children = el.children[0].children[0];
         this.height = `${window.parseInt(window.getComputedStyle(el, null).lineHeight) *

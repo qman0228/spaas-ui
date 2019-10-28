@@ -85,7 +85,7 @@
           },
           {
             label: "地址",
-            prop: "adress"
+            prop: "adress",
           }
         ]
       };
@@ -151,6 +151,111 @@
 
 :::
 
+### 单列展示
+
+:::demo 通过设置"isCol", 可实现行或列展示。
+
+```html
+<el-data-mapper
+  :data="data"
+  :columns="columns"
+  placeholder="-"
+  :isCol="true"
+></el-data-mapper>
+<script>
+  export default {
+    data() {
+      return {
+        data: {
+          name: "韩梅梅",
+          grade: "女",
+          age: "18",
+          adress: "中国广东省广州市海珠区大塘",
+          birth: ""
+        },
+        columns: [
+          {
+            label: "姓名",
+            prop: "name"
+          },
+          {
+            label: "性别",
+            prop: "grade"
+          },
+          {
+            label: "年龄",
+            prop: "age"
+          },
+          {
+            label: "地址",
+            prop: "adress"
+          },
+          {
+            label: "生日",
+            prop: "birth"
+          }
+        ]
+      };
+    }
+  };
+</script>
+```
+
+:::
+
+### 设置labelWidth
+
+:::demo labelWith 可设置，label默认居右显示，可通过 labelAlign 设置
+
+```html
+<el-data-mapper
+  :data="data"
+  :columns="columns"
+  placeholder="-"
+  labelWidth='100px'
+  :isCol="true"
+></el-data-mapper>
+<script>
+  export default {
+    data() {
+      return {
+        data: {
+          name: "韩梅梅",
+          grade: "女",
+          age: "18",
+          adress: "中国广东省广州市海珠区大塘",
+          birth: ""
+        },
+        columns: [
+          {
+            label: "我的姓名",
+            prop: "name"
+          },
+          {
+            label: "性别",
+            prop: "grade"
+          },
+          {
+            label: "年龄",
+            prop: "age"
+          },
+          {
+            label: "地址",
+            prop: "adress"
+          },
+          {
+            label: "生日",
+            prop: "birth"
+          }
+        ]
+      };
+    }
+  };
+</script>
+```
+
+:::
+
 ### Attributes
 
 | 参数        | 说明                                          | 类型                     | 可选值 | 默认值 |
@@ -160,3 +265,6 @@
 | formatter   | 用来格式化内容                                | function(data,col,index) | —      | —      |
 | placeholder | 占位符                                        | string                   | —      | —      |
 | contentRows | 内容显示的最大行数，超出的内容用省略号...代替 | number                   | —      | 1      |
+| isCol | 设置行或列展示，默认行展示 | boolean                   | —      | false      |
+| labelWidth | 标签宽度 | string/number                   | —      |       |
+| labelAlign | 标签位置，默认居右 |      string              | —      | right      |

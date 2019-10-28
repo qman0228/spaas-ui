@@ -88,8 +88,96 @@ describe('DataMapper', () => {
       }
     }, true);
     let contentRowsElm = vm.$el.children[0].children[0].children[1].children[0];
-    console.log(contentRowsElm.style.webkitLineClamp);
     expect(contentRowsElm.style.webkitLineClamp).to.equal('4');
+  });
+
+  it('isCol', done => {
+    vm = createVue({
+      template: `
+        <el-data-mapper :data="data" :columns="columns" placeholder="-" :isCol="isCol"></el-data-mapper>
+      `,
+      data() {
+        return {
+          data: {
+            name: '韩梅梅',
+            grade: '女',
+            age: '18',
+            adress: '中国广东省广州市海珠区大塘'
+          },
+          columns: [
+            {
+              label: '姓名',
+              prop: 'name'
+            },
+            {
+              label: '性别',
+              prop: 'grade'
+            },
+            {
+              label: '年龄',
+              prop: 'age'
+            },
+            {
+              label: '地址',
+              prop: 'adress'
+            }
+          ],
+          isCol: true
+        };
+      }
+    }, true);
+    const colEle = vm.$el.children[0].children[0];
+    setTimeout(() =>{
+      expect(colEle.classList.contains('el-col-xs-24')).to.not.be.true;
+      expect(colEle.classList.contains('el-col-sm-12')).to.not.be.true;
+      expect(colEle.classList.contains('el-col-md-12')).to.not.be.true;
+      expect(colEle.classList.contains('el-col-lg-8')).to.not.be.true;
+      expect(colEle.classList.contains('el-col-xl-8')).to.not.be.true;
+      done();
+    }, 10);
+  });
+  it('labelWidth', done => {
+    vm = createVue({
+      template: `
+        <el-data-mapper :data="data" :columns="columns" placeholder="-" :labelWidth="labelWidth" :labelAlign="labelAlign"></el-data-mapper>
+      `,
+      data() {
+        return {
+          data: {
+            name: '韩梅梅',
+            grade: '女',
+            age: '18',
+            adress: '中国广东省广州市海珠区大塘'
+          },
+          columns: [
+            {
+              label: '姓名',
+              prop: 'name'
+            },
+            {
+              label: '性别',
+              prop: 'grade'
+            },
+            {
+              label: '年龄',
+              prop: 'age'
+            },
+            {
+              label: '地址',
+              prop: 'adress'
+            }
+          ],
+          labelWidth: '100px',
+          labelAlign: 'left'
+        };
+      }
+    }, true);
+    const colEle = vm.$el.children[0].children[0].children[0];
+    setTimeout(() =>{
+      expect(colEle.style.width).to.equal('100px');
+      expect(colEle.style.textAlign).to.equal('left');
+      done();
+    }, 10);
   });
 });
 

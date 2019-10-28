@@ -33,6 +33,18 @@ export default {
     contentRows: {
       type: Number,
       default: 1
+    },
+    isCol: {
+      type: Boolean,
+      default: false
+    },
+    labelWidth: {
+      type: [String, Number],
+      default: ''
+    },
+    labelAlign: {
+      type: String,
+      default: 'right'
     }
   },
   render(h) {
@@ -45,6 +57,11 @@ export default {
       [contentRows]
     );
   },
+  // computed: {
+  //   labelWidth() {
+  //     return (/^[0-9]*px$/).test(this.labelWidth) ? this.labelWidth : this.width + 'px';
+  //   }
+  // },
   methods: {
     // 渲染contentRows
     renderRow(h, columns) {
@@ -61,7 +78,7 @@ export default {
           : this.data[col.prop];
 
         // 处理内容
-        typeof propData === 'object' && (propData = '');
+        typeof propData === 'object' && (propData = this.placeholder);
         const VALUE = col.formatter
           ? col.formatter(this.data, col, index)
           : propData || this.placeholder;
@@ -69,7 +86,8 @@ export default {
         const title = h(
           'div',
           {
-            class: 'el-data-mapper-col-title'
+            class: 'el-data-mapper-col-title',
+            style: {width: (/^[0-9]*px$/).test(this.labelWidth) ? this.labelWidth : this.labelWidth + 'px', textAlign: this.labelAlign}
           },
           [col.label && `${col.label}：`]
         );
@@ -77,7 +95,7 @@ export default {
           'el-col',
           {
             class: 'el-data-mapper-col',
-            props: {
+            props: this.isCol ? {} : {
               xs: 24,
               sm: 12,
               md: 12,

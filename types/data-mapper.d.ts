@@ -17,4 +17,13 @@ export declare class ElDataMapper extends ElementUIComponent {
   /** data-mapper rows */
   contentRows:number
 
+   /** single column display */
+   isCol:boolean
+
+    /** label width */
+  labelWidth:string | number
+
+   /** label position */
+   labelAlign:string
+
 }
