@@ -36,6 +36,7 @@
   "form": "./packages/form/index.js",
   "form-item": "./packages/form-item/index.js",
   "tabs": "./packages/tabs/index.js",
+  "tabs-dotted": "./packages/tabs-dotted/index.js",
   "tab-pane": "./packages/tab-pane/index.js",
   "tag": "./packages/tag/index.js",
   "tree": "./packages/tree/index.js",
@@ -84,4 +85,14 @@
   "lr-container": "./packages/lr-container/index.js",
   "loading-button": "./packages/loading-button/index.js",
   "data-mapper": "./packages/data-mapper/index.js"
+  "radio-img-button": "./packages/radio-img-button/index.js",
+  "panel": "./packages/panel/index.js",
+  "other-color": "./packages/other-color/index.js",
+  "icon-checkbox": "./packages/icon-checkbox/index.js",
+  "status-steps": "./packages/status-steps/index.js",
+  "lr-container": "./packages/lr-container/index.js",
+  "loading-button": "./packages/loading-button/index.js",
+  "checkbox-img-button": "./packages/checkbox-img-button/index.js",
+  "data-mapper": "./packages/data-mapper/index.js",
+  "message-box-center": "./packages/message-box-center/index.js"
 }

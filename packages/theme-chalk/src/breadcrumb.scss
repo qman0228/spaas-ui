@@ -22,16 +22,16 @@
     float: left;
 
     @include e(inner) {
-      color: $--color-text-regular;
+      color: $--color-text-primary; //$--color-text-regular
 
       &.is-link, & a {
-        font-weight: bold;
+        font-weight: normal; // bold
         text-decoration: none;
         transition: $--color-transition-base;
         color: $--color-text-primary;
 
         &:hover {
-          color: $--color-primary;
+          //color: $--color-primary;
           cursor: pointer;
         }
       }
@@ -41,9 +41,9 @@
       .el-breadcrumb__inner,
       .el-breadcrumb__inner a {
         &, &:hover {
-          font-weight: normal;
-          color: $--color-text-regular;
-          cursor: text;
+          font-weight: bold; // normal
+          color: $--color-text-primary; // $--color-text-regular
+          //cursor: text;
         }
       }
 

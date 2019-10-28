@@ -86,6 +86,7 @@
           {
             label: "地址",
             prop: "adress",
+            prop: "adress"
           }
         ]
       };
@@ -150,6 +151,7 @@
 ```
 
 :::
+
 
 ### 单列展示
 
@@ -268,3 +270,4 @@
 | isCol | 设置行或列展示，默认行展示 | boolean                   | —      | false      |
 | labelWidth | 标签宽度 | string/number                   | —      |       |
 | labelAlign | 标签位置，默认居右 |      string              | —      | right      |
+

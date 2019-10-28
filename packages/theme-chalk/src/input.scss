@@ -263,6 +263,28 @@
       line-height: $--input-mini-height;
     }
   }
+
+  // 覆盖原有的图标样式
+  @include b(icon-circle-close) {
+    &:before {
+      content: "\e79d";
+      background-color: $--input-background-color;
+      border-radius: 100%;
+      color: $--input-icon-color;
+    }
+  }
+
+  @include b(input__validateIcon) {
+    &.el-icon-circle-close:before {
+      color: $--color-danger;
+      background: $--input-background-color;
+    }
+    &.el-icon-circle-check:before {
+      background: $--input-background-color;
+      content: "\e79c";
+      color: $--color-success;
+    }
+  }
 }
 
 @include b(input-group) {

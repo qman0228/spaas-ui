@@ -37,6 +37,7 @@ import BreadcrumbItem from '../packages/breadcrumb-item/index.js';
 import Form from '../packages/form/index.js';
 import FormItem from '../packages/form-item/index.js';
 import Tabs from '../packages/tabs/index.js';
+import TabsDotted from '../packages/tabs-dotted/index.js';
 import TabPane from '../packages/tab-pane/index.js';
 import Tag from '../packages/tag/index.js';
 import Tree from '../packages/tree/index.js';
@@ -81,10 +82,16 @@ import PageHeader from '../packages/page-header/index.js';
 import CascaderPanel from '../packages/cascader-panel/index.js';
 import Avatar from '../packages/avatar/index.js';
 import Drawer from '../packages/drawer/index.js';
+import RadioImgButton from '../packages/radio-img-button/index.js';
 import Panel from '../packages/panel/index.js';
+import OtherColor from '../packages/other-color/index.js';
+import IconCheckbox from '../packages/icon-checkbox/index.js';
+import StatusSteps from '../packages/status-steps/index.js';
 import LrContainer from '../packages/lr-container/index.js';
 import LoadingButton from '../packages/loading-button/index.js';
+import CheckboxImgButton from '../packages/checkbox-img-button/index.js';
 import DataMapper from '../packages/data-mapper/index.js';
+import MessageBoxCenter from '../packages/message-box-center/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -125,6 +132,7 @@ const components = [
   Form,
   FormItem,
   Tabs,
+  TabsDotted,
   TabPane,
   Tag,
   Tree,
@@ -165,9 +173,14 @@ const components = [
   CascaderPanel,
   Avatar,
   Drawer,
+  RadioImgButton,
   Panel,
+  OtherColor,
+  IconCheckbox,
+  StatusSteps,
   LrContainer,
   LoadingButton,
+  CheckboxImgButton,
   DataMapper,
   CollapseTransition
 ];
@@ -191,6 +204,7 @@ const install = function(Vue, opts = {}) {
   Vue.prototype.$loading = Loading.service;
   Vue.prototype.$msgbox = MessageBox;
   Vue.prototype.$alert = MessageBox.alert;
+  Vue.prototype.$alertCenter = MessageBoxCenter.alert;
   Vue.prototype.$confirm = MessageBox.confirm;
   Vue.prototype.$prompt = MessageBox.prompt;
   Vue.prototype.$notify = Notification;
@@ -204,7 +218,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  version: '2.12.0',
+  version: '2.13.1',
   locale: locale.use,
   i18n: locale.i18n,
   install,
@@ -247,6 +261,7 @@ export default {
   Form,
   FormItem,
   Tabs,
+  TabsDotted,
   TabPane,
   Tag,
   Tree,
@@ -290,8 +305,14 @@ export default {
   CascaderPanel,
   Avatar,
   Drawer,
+  RadioImgButton,
   Panel,
+  OtherColor,
+  IconCheckbox,
+  StatusSteps,
   LrContainer,
   LoadingButton,
-  DataMapper
+  CheckboxImgButton,
+  DataMapper,
+  MessageBoxCenter
 };

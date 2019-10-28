@@ -1,6 +1,5 @@
-import { ElementUIComponent } from './component'
-import TsButton from './button'
+import { ElButton } from './button'
 /** LoadingButton Component */
-export declare class ElLoadingButton extends TsButton {
+export declare class ElLoadingButton extends ElButton {
   loadingClick: Function
 }

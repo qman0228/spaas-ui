@@ -25,5 +25,4 @@ export declare class ElDataMapper extends ElementUIComponent {
 
    /** label position */
    labelAlign:string
-
 }

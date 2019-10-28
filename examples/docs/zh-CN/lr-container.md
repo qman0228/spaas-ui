@@ -2,6 +2,8 @@
 
 相对于上面的布局容器，该组件主要针对左右两侧布局，对滚动条样式进行了优化.
 
+### 基础用法
+
 :::demo
 ```html
   <el-lr-container
@@ -10,10 +12,30 @@
     main-height='200px'
     >
     <template slot='aside'>
-      <div style="height:300px;background:#b3c0d1;">aside</div>
+      <div style="height:300px;">aside</div>
     </template>
     <template slot="main">
-      <div style="height:300px;background:#e9eef3;">main</div>
+      <div style="height:300px;">main</div>
+    </template>
+  </el-lr-container>
+```
+:::
+
+### 带有边框
+
+:::demo
+```html
+  <el-lr-container
+    aside-width='100'
+    aside-height='200px'
+    main-height='200px'
+    border
+    >
+    <template slot='aside'>
+      <div style="height:300px;">aside</div>
+    </template>
+    <template slot="main">
+      <div style="height:300px;">main</div>
     </template>
   </el-lr-container>
 ```

@@ -57,11 +57,6 @@ export default {
       [contentRows]
     );
   },
-  // computed: {
-  //   labelWidth() {
-  //     return (/^[0-9]*px$/).test(this.labelWidth) ? this.labelWidth : this.width + 'px';
-  //   }
-  // },
   methods: {
     // 渲染contentRows
     renderRow(h, columns) {
